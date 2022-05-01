@@ -70,6 +70,13 @@ public class GamePanel extends JPanel implements Runnable {
         if(paddle2.y >= (GAME_HEIGHT - PADDLE_HEIGHT)) {
             paddle2.y = GAME_HEIGHT - PADDLE_HEIGHT;
         }
+        if(ball.y >= (GAME_HEIGHT - BALL_DIAMETER)) {
+            ball.yVelocity = Math.abs(ball.yVelocity);
+        }
+        if(ball.y <= 0) {
+            ball.yVelocity = -ball.yVelocity;
+        }
+
     }
     public void run() {
         long lastTime = System.nanoTime();
