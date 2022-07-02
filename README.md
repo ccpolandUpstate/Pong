@@ -3,4 +3,4 @@
 
 - Collision Detection Working For Everything. 
 - Missing a Score Board / Resetting the Ball to inital position
-- Overall, good little project to advance objection knowledge, JFrame knowledge, and the use of several classes.
+- Overall, good little project to advance object knowledge, JFrame knowledge, and the use of several classes.
